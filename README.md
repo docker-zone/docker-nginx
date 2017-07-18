@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
- - [`1.12.0.c7`, `latest` (1.12.0.c7/Dockerfile)](https://github.com/dingwenxiang0/docker-nginx/blob/1.12.0.c7/1.12.0/centos/7/Dockerfile)
+ - [`1.12.0.c7`, `latest` (1.12.0.c7/Dockerfile)](https://github.com/docker-zone/docker-nginx/blob/1.12.0.c7/1.12.0/centos/7/Dockerfile)
   
 Subscribe to project updates by watching the [docker-nginx GitHub repo](https://github.com/docker-zone/docker-nginx/).
  
