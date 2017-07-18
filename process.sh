@@ -22,6 +22,3 @@ make && make install
 echo "daemon off;" >> $NGINX_DIRECTORY/conf/nginx.conf
 sed -ri 's/#user\s+nobody/user root/g' $NGINX_DIRECTORY/conf/nginx.conf
 
-## clean tmp directory
-rm -rf /tmp/*
-
