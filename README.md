@@ -27,7 +27,7 @@ docker pull dingwenxiang0/nginx:[TAG]
 
 `docker run -d --name nginx -p 8080:80 -p 10022:22 dingwenxiang0/nginx:[TAG]`
 
-for SSHD, you can view the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd/).
+For SSHD, you can view the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd/).
 
 # Open a shell on it
 
@@ -39,4 +39,4 @@ for SSHD, you can view the [docker-os-sshd GitHub repo](https://github.com/docke
 
 # Remarks
 
-config file path: /etc/nginx/
+file path: /app/tools/nginx
