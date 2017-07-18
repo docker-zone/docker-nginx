@@ -20,7 +20,7 @@ docker pull dingwenxiang0/nginx:[TAG]
 
 # Running Container on nginx
 
-`docker run -tid --name nginx -p 8080:80 dingwenxiang0/nginx:[TAG]`
+`docker run -d --name nginx -p 8080:80 dingwenxiang0/nginx:[TAG]`
 
 # Open a shell on it
 
