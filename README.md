@@ -1,5 +1,5 @@
 # Supported tags and respective `Dockerfile` links
- 
+
 Subscribe to project updates by watching the [docker-nginx GitHub repo](https://github.com/docker-zone/docker-nginx/).
  
 # Get this image
@@ -18,7 +18,13 @@ docker pull dingwenxiang0/nginx:[TAG]
 
 # Running Container on nginx
 
-`docker run -tid --name nginx -p 8080:80 dingwenxiang0/nginx:[TAG]`
+`docker run -d --name nginx -p 8080:80 dingwenxiang0/nginx:[TAG]`
+
+# Running Container on nginx with sshd
+
+`docker run -d --name nginx -p 8080:80 -p 10022:22 dingwenxiang0/nginx:[TAG]`
+
+For SSHD, you can view the [docker-os-sshd GitHub repo](https://github.com/docker-zone/docker-os-sshd/).
 
 # Open a shell on it
 
@@ -30,4 +36,4 @@ docker pull dingwenxiang0/nginx:[TAG]
 
 # Remarks
 
-config file path: /etc/nginx/
+file path: /app/tools/nginx
